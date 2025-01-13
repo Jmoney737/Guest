@@ -120,12 +120,7 @@
                 .then(response => {
                     if (response.ok) {
                         alert("Routine triggered successfully!");
-                    } else {
-                        alert("Failed to trigger routine.");
                     }
-                })
-                .catch(error => {
-                    alert("Error triggering routine. Please check your connection.");
                 });
         }
     </script>
